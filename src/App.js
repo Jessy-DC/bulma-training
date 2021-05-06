@@ -1,8 +1,12 @@
 import './App.css';
+import Navbar from "./components/navbar";
+
+import 'bulma/css/bulma.min.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <section className="section">
         <div className="container">
           <h1 className="title">
